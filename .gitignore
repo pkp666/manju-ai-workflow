@@ -28,6 +28,11 @@ debug_parse_*.json
 *.jpeg
 *.png
 *.webp
+!docs/assets/
+!docs/assets/*.jpg
+!docs/assets/*.jpeg
+!docs/assets/*.png
+!docs/assets/*.webp
 
 # Local project state and backups
 project.json

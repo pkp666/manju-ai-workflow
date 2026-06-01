@@ -4,9 +4,13 @@
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/UI-Streamlit-ff4b4b.svg)](https://streamlit.io/)
 
+![Meaning Negotiation Node social preview](docs/assets/social-preview.png)
+
 AI long-link production workflow for turning a raw story, script, or creative brief into structured manga / storyboard production data while preserving creator intent through **Meaning Negotiation Nodes**.
 
 `manju-ai-workflow` is based on a research-driven design idea: in AIGC long-link production, creator intent can be silently handed over to algorithmic defaults as text is converted into scenes, assets, shots, images, and videos. This project introduces a practical **意义协商节点 / Meaning Negotiation Node** mechanism so creators can intervene before errors are locked into downstream stages.
+
+Read the concept note: [Meaning Negotiation Node](docs/meaning-negotiation-node.md).
 
 ## Core Concept
 
