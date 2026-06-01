@@ -1,0 +1,24 @@
+{
+  "1": {
+    "inputs": {"image": "placeholder.png"},
+    "class_type": "LoadImage"
+  },
+  "2": {
+    "inputs": {
+      "upscale_model": ["4", 0],
+      "image": ["1", 0]
+    },
+    "class_type": "ImageUpscaleWithModel"
+  },
+  "4": {
+    "inputs": {"model_name": "4x_NMKD-Siax_200k.pth"},
+    "class_type": "UpscaleModelLoader"
+  },
+  "6": {
+    "inputs": {
+      "filename_prefix": "ComfyUI",
+      "images": ["2", 0]
+    },
+    "class_type": "SaveImage"
+  }
+}
